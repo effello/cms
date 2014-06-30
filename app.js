@@ -15,6 +15,19 @@ var site = require('apostrophe-site')({
   locals: {
     loginButton: true
   },
+  i18n: {
+  // setup some locales - other locales default to defaultLocale silently
+  locales:['en', 'de'],
+
+  // you may alter a site wide default locale (optional, defaults to 'en')
+  defaultLocale: 'de',
+
+  // sets a custom cookie name to parse locale settings from  - defaults to apos_language (optional)
+  cookie: 'yourcookiename',
+
+  // whether to write new locale information to disk automatically - defaults to true (you will want to shut it off in production)
+  // updateFiles: false
+  },
 
   lockups: {
     left: {
@@ -92,7 +105,9 @@ var site = require('apostrophe-site')({
         }
       ]
     },
+    'apostrophe-snippets': {},
     'apostrophe-redirects': {}
+
   },
 
   // These are assets we want to push to the browser.
@@ -102,6 +117,7 @@ var site = require('apostrophe-site')({
     scripts: ['site'],
     stylesheets: ['site']
   },
+
 
   // beforeEndAssets: function(callback) {
   //   // Apostrophe already loads these for logged-out users, but we

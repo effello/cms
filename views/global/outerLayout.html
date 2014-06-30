@@ -19,11 +19,12 @@
 
           {# edit === can edit THIS page #}
           {{ aposMapMenu(permissions) }}
-          {{ aposPeopleMenu(permissions) }}
-          {{ aposGroupsMenu(permissions) }}
-          {{ aposMediaMenu({ edit: permissions.guest })}}
+          {{ aposPeopleMenu(permissions.admin) }}
+          {{ aposGroupsMenu(permissions.admin) }}
+          {{ aposMediaMenu({ edit: permissions.edit })}}
           {{ aposTagsMenu({ edit: permissions.admin }) }}
           {{ aposRedirectsMenu({ edit: permissions.admin }) }}
+          {{ aposSnippetMenu({ edit: permissions.edit }) }}
 
           {% if edit %}
             <div class="apos-admin-bar-item apos-preview-toggle">
