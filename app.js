@@ -2,10 +2,10 @@ var site = require('apostrophe-site')({
 
   // This line is required and allows apostrophe-site to use require() and manage our NPM modules for us.
   root: module,
-  shortName: 'apostrophe-sandbox',
-  hostName: 'apostrophe-sandbox',
-  title: 'Apostrophe Sandbox',
-  sessionSecret: 'apostrophe sandbox demo party',
+  shortName: 'efelo-sandbox',
+  hostName: 'efelo.de',
+  title: 'efelo.de Sandbox',
+  sessionSecret: 'efelo sandbox party',
   adminPassword: 'demo',
 
   // Give users a chance to log in if they attempt to visit a page
@@ -73,7 +73,7 @@ var site = require('apostrophe-site')({
     'apostrophe-blog-2': {},
     'apostrophe-people': {
       email: {
-        from: 'Tommy Boutell <tom@example.com>'
+        from: 'Florian Hoeffken <florian.hoeffken@efelo.de>'
       }
     },
     'apostrophe-groups': {},

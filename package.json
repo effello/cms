@@ -1,6 +1,6 @@
 {
-  "name": "the-new-sandbox",
-  "version": "0.5.0",
+  "name": "efelo.de-Sandbox",
+  "version": "0.1.0",
   "description": "Sandbox site featuring typical Apostrophe features",
   "main": "app.js",
   "scripts": {
@@ -8,10 +8,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/punkave/apostrophe-sandbox"
+    "url": "https://github.com/effello/cms"
   },
-  "author": "P'unk Avenue",
-  "license": "BSD",
+  "author": "efelo",
+  "license": "noLicence",
   "dependencies": {
     "apostrophe": "0.5.x",
     "apostrophe-ui-2": "0.5.x",
