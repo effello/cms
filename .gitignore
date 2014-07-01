@@ -1,6 +1,4 @@
-locales
 npm-debug.log
-data
 public/uploads
 temp/uploadfs
 node_modules
