@@ -6,7 +6,7 @@ var site = require('apostrophe-site')({
   hostName: 'efelo.de',
   title: 'efelo.de Sandbox',
   sessionSecret: 'efelo sandbox party',
-  adminPassword: 'demo',
+  adminPassword: 'M0pp3Lb1B0',
 
   // Give users a chance to log in if they attempt to visit a page
   // which requires login
